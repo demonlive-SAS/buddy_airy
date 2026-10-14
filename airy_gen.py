@@ -11,7 +11,7 @@ M3U_FILENAME = "airy_channels.m3u"
 EPG_FILENAME = "airy_channels.xml"
 
 # Updated User and Repo Details
-GITHUB_USERNAME = "BuddyChewChew"
+GITHUB_USERNAME = "demonlive-SAS"
 REPO_NAME = "airy-playlist-generator"
 GITHUB_RAW_URL = f"https://raw.githubusercontent.com/{GITHUB_USERNAME}/{REPO_NAME}/main/{EPG_FILENAME}"
 

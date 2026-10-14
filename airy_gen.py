@@ -50,8 +50,8 @@ def generate_files(data):
     categories = data.get('response', {}).get('categories', [])
 
     for category in categories:
-        # Clean up underscores in category names
-        cat_name = category.get('name', 'General').replace('_', ' ')
+        # All categories are now forced to "Fast Airy"
+        cat_name = "Fast Airy"
         
         for chan in category.get('stream_channels', []):
             chan_id = str(chan.get('id', ''))
